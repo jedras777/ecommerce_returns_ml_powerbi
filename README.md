@@ -93,14 +93,14 @@ Wnioski z trenowania:
 ## Model Performance
 
 ### ROC Curve
-![ROC Curve](outputs/figs/roc_curve.png)
+![ROC Curve](outputs/Figure_1.png)
 
 ### Precision–Recall Curve
-![Precision–Recall Curve](outputs/figs/pr_curve.png)
+![Precision–Recall Curve](outputs/Figure_2.png)
 
 ### Confusion Matrix
-![Confusion Matrix](outputs/figs/confusion_matrix.png)
+![Confusion Matrix](outputs/Figure_3.png)
 
 ### Feature Importance
-![Feature Importance (Top 15)](outputs/figs/feature_importance.png)
+![Feature Importance (Top 15)](outputs/Figure_4.png)
 
