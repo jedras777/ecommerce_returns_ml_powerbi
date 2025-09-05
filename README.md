@@ -1,3 +1,16 @@
+Problem: przewidywanie zwrotów zamówień (binary classification).
+
+Dane: UCI Online Retail (2010-12 → 2011-12), ~500k linii. Link do źródła.
+
+Original data comes from the **UCI ML Repository**:
+
+- **Online Retail** dataset (Dec 2010 – Dec 2011 transactions):  
+https://archive.ics.uci.edu/ml/datasets/Online+Retail  
+Attribution-4.0 International (CC BY-4.0) license :contentReference[oaicite:1]{index=1}
+
+EDA biznesowe: sprzedaż miesięczna/tygodniowa, zwroty per kraj, top produkty, RFM.
+
+
 Podczas eksploracji zbioru Online Retail zidentyfikowałem kilka problemów jakościowych w danych:
 
 1.InvoiceNo
@@ -75,3 +88,19 @@ Wnioski z trenowania:
 „Pierwsza wersja modelu dawała AUC≈1.0. Zdiagnozowałem data leakage: cechy oparte na znakowanej ilości/kwocie ujawniały zwrot. Zmieniłem definicję problemu na prognozę zwrotu w 30 dni po sprzedaży oraz przerobiłem cechy (absoluty / bez oryginalnych znaków). Wynik stał się realistyczny.”
 
 „Podział czasowy zapewnia brak przecieku z przyszłości i lepiej symuluje wdrożenie.”
+
+
+## Model Performance
+
+### ROC Curve
+![ROC Curve](outputs/figs/roc_curve.png)
+
+### Precision–Recall Curve
+![Precision–Recall Curve](outputs/figs/pr_curve.png)
+
+### Confusion Matrix
+![Confusion Matrix](outputs/figs/confusion_matrix.png)
+
+### Feature Importance
+![Feature Importance (Top 15)](outputs/figs/feature_importance.png)
+
