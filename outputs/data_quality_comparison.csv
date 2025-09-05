@@ -1,0 +1,20 @@
+﻿,raw,clean,delta
+rows,541909,539392,-2517
+cols,8,10,2
+date_min,2010-12-01 08:26:00,2010-12-01 08:26:00,0 days 00:00:00
+date_max,2011-12-09 12:50:00,2011-12-09 12:50:00,0 days 00:00:00
+unique_customers,4372,4372,0
+unique_products,4070,3938,-132
+unique_invoices,25900,23796,-2104
+credit_invoices_cnt,9288,9288,0
+qty_negative_cnt,10624,9288,-1336
+qty_zero_cnt,0,0,0
+unitprice_le0_cnt,2517,0,-2517
+desc_missing_cnt,1454,0,-1454
+desc_blank_cnt,1454,0,-1454
+customerid_missing_cnt,135080,0,-135080
+customerid_missing_pct,24.926694334288598,0.0,-24.926694334288598
+isreturn_true_cnt,,9288,
+isreturn_true_pct,,1.7219387755102038,
+totalprice_negative_cnt,,9288,
+totalprice_zero_cnt,,0,
