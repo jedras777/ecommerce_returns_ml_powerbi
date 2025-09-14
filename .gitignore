@@ -1,2 +1,15 @@
-./.idea
-EDA
+# venv / IDE
+venv/
+.idea/
+.vscode/
+
+# dane i artefakty
+inputs/*
+outputs/*.csv
+outputs/*.png
+dashboards/*.pbix
+
+# pycache
+__pycache__/
+*.pyc
+*.pyo

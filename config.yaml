@@ -1,0 +1,31 @@
+paths:
+  inputs: "inputs/Online Retail.xlsx"
+  raw_csv: "outputs/online_retail.csv"
+  clean_csv: "outputs/online_retail_clean.csv"
+  metrics: "outputs/metrics.csv"
+  predictions: "outputs/predictions.csv"
+
+training:
+  cutoff_date: "2011-10-01"
+  models: ["logreg", "rf", "xgb"]
+
+logreg:
+  max_iter: 10000
+  solver: "saga"
+  penalty: "l2"
+  class_weight: "balanced"
+
+rf:
+  n_estimators: 300
+  max_depth: null
+  random_state: 42
+
+xgb:
+  n_estimators: 300
+  learning_rate: 0.07
+  max_depth: 6
+  subsample: 0.9
+  colsample_bytree: 0.9
+  random_state: 42
+  tree_method: "hist"
+  eval_metric: "logloss"
