@@ -197,10 +197,8 @@ Cleaning: usunięcie błędnych wartości, flaga `IsReturn`, uzupełnianie brak�
 
 Plik: `dashboards/Returns.pbix` (dane z `outputs/`).
 
-Propozycje stron:
-- Model performance  
-- Predictions (test set)  
-- Business analysis (sprzedaż, kraje, produkty)
+
+![DASHBOARDS](dashboards/powerbi_dashboard.png)
 
 ---
 
